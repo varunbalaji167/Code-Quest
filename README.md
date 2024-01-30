@@ -1,4 +1,4 @@
-# Code-Quest-Quiz-Web-
+# Code-Quest-Quiz
 This project is built using HTML, CSS and JavaScript 
 Welcome to Code Quest, an engaging quiz website designed to test your knowledge on various topics such as C++,HTML,CSS,JS. This project is built using HTML, CSS, and JavaScript to provide a seamless and interactive experience for users.
 
@@ -42,3 +42,5 @@ Home page: https://drive.google.com/file/d/1EOSsQPO5R3gubvj7A3yeX-ch8uUJthXv/vie
 Interior pages: https://drive.google.com/file/d/1EX-s8vald4xNsbiEeGV4uHAXp7GI5VOy/view?usp=drive_link
 Interior pages: https://drive.google.com/file/d/1EPR3kSNNG86g0wWYCSh8rw_5oKFdlLN1/view?usp=sharing
 End page: https://drive.google.com/file/d/1EUchMVgiY7GZr8zSS7DaeY7qXTtPqIiz/view?usp=sharing
+
+## URL: https://varunbalaji167.github.io/Code-Quest/
