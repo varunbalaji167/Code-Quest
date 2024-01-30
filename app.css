@@ -1,0 +1,85 @@
+:root{
+  /* setting background of the home page using downloaded image url */
+    background: url('app.jpg') no-repeat;
+    min-height: 100vh;
+    /* adding background properties to be a responsive bg*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 62.5%;
+  }
+
+  * {
+    /* setting primary characterstics such as boxes used,font for all elements */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: cyan;
+  }
+
+  /* styling h statements */
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 5.4rem;
+    color: rgb(203, 74, 203);
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    color: rgb(239, 239, 38);
+  }
+  
+  h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    color:rgb(239, 239, 38);
+  }
+  /* UTILITIES */
+  /* . is for class and # is for id */
+
+  /* styling classes */
+  .container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .container > * {
+    width: 100%;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-center {
+    justify-content: center;
+    align-items: center;
+  }
+  /* BUTTONS */
+  .btn {
+    font-size: 3rem;
+    text-align: center;
+    padding: 9px;
+    border: 0.5rem solid rgb(203, 74, 203);
+    margin-bottom: 1rem;
+    text-decoration: none;
+    position: absolute; bottom: 0;
+    color: cyan;
+  }
