@@ -1,0 +1,75 @@
+:root {
+  /* setting background of the home page using downloaded image url */
+    min-height: 100vh;
+    background: url('yes.jpg') no-repeat;
+    /* adding background properties to be a responsive bg*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  /* styling choices by classes */
+    .choice-container {
+    display: flex;
+    margin-bottom: 0.75rem;
+    width: 100%;
+    font-size: 2rem;
+    border: 0.25rem solid  rgb(241, 241, 54);
+  }
+  
+  .choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0  rgb(241, 241, 54);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: rgb(241, 241, 54) ;
+    color: rgb(17, 16, 16);
+    font-size: x-large;
+  }
+  
+  .choice-text {
+    padding: 1.5rem;
+  }
+
+  .correct {
+    background-color: green;
+  }
+  
+  .incorrect {
+    background-color: red;
+  }
+  
+  /* stylling id HUD(head-up display)  */
+  
+  #hud {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .hud-main-text {
+    text-align: center;
+    color: rgb(230, 0, 255);
+  }
+
+  /* stylling id progress bar */
+  
+  #progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid rgb(241, 241, 54);
+    margin-top: 1.5rem;
+  }
+  
+  #progressBarFull {
+    height: 3.4rem;
+    background-color:  rgb(241, 241, 54);
+    width: 0%;
+  }
